@@ -5,7 +5,7 @@ import 'package:world_time/pages/loading.dart';
 
 void main() {
   runApp(MaterialApp(
-    initialRoute: '/home',
+    initialRoute: '/',
     routes: {
       // ignore: prefer_const_constructors
       '/': (context) => Loading(),
