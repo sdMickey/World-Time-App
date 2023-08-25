@@ -10,8 +10,9 @@ class Loading extends StatefulWidget {
 class _LoadingState extends State<Loading> {
   @override
   Widget build(BuildContext context) {
+    // ignore: prefer_const_constructors
     return Scaffold(
-      body: Text('loading screen'),
+      body: const Text('loading screen'),
     );
   }
 }
