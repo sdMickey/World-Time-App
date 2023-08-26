@@ -58,9 +58,15 @@ class _ChooseLocationState extends State<ChooseLocation> {
                   updateTime(index);
                 },
                 title: Text(locations[index].location),
-                leading: CircleAvatar(
-                  backgroundImage:
-                      AssetImage('assets/flags/${locations[index].flag}'),
+                // leading: CircleAvatar(
+                //   backgroundImage:
+                //       AssetImage('assets/flags/${locations[index].flag}'),
+                // ),
+                leading: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Image(
+                    image: AssetImage('assets/flags/${locations[index].flag}'),
+                  ),
                 ),
               ),
             ),
