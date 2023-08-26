@@ -13,7 +13,6 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     data = ModalRoute.of(context)!.settings.arguments as Map;
-    // ignore: avoid_print
     print(data);
 
     return Scaffold(
